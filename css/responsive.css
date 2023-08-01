@@ -1,0 +1,65 @@
+/* Mobile Styles (Less than 400px) */
+@media (max-width: 400px) {
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  header {
+    position: static;
+    /* Remove fixed position for top navigation bar */
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  #aboutmain {
+    grid-template-columns: 1fr;
+  }
+
+  #reviewCardContainer {
+    flex-direction: column;
+  }
+
+  .reviewCard {
+    width: 100%;
+  }
+
+  #join input[type="email"],
+  #reviewForm input[type="text"],
+  #reviewForm select,
+  #reviewForm textarea {
+    width: 80%;
+  }
+
+  #video iframe {
+    width: 100%;
+    height: auto;
+    /* Make videos take full width and adjust height proportionally */
+  }
+
+  div img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Center the table on smaller screens */
+  }
+
+  th,
+  td {
+    padding: 5px;
+    box-sizing: border-box;
+    /* Include padding in the total width of table cells */
+  }
+
+  #ttop {
+    font-size: 20px;
+  }
+}
