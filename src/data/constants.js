@@ -272,7 +272,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://changcui28.github.io/",
-    webapp: "https://podstream.netlify.app/",
+    webapp: "https://changcui28.github.io/",
     member: [
       {
         name: "Chang Cui",
