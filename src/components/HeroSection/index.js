@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle } from './HeroStyle'
+// import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './HeroStyle'
 import HeroImg from '../../images/HeroImage.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -30,7 +31,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Download Resume</ResumeButton>
+                        {/* <ResumeButton href={Bio.resume} target='display'>Download Resume</ResumeButton> */}
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
