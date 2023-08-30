@@ -9,7 +9,6 @@ Welcome to my portfolio!
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Introduction
 
@@ -32,7 +31,3 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 - **Style-Components**: A CSS framework for creating responsive and mobile-first designs.
 - **Git**: A version control system for tracking changes and collaborating on projects.
 - **GitHub Pages**: A platform for hosting and deploying web applications.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
