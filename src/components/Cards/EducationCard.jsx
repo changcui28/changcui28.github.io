@@ -1,12 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const DocumentContainer = styled.div`
+    display: flex;
+    align-items: center;
+`;
+
 const Document = styled.img`
-    display: none;
+    // display: none;
     height: 70px;
     width: fit-content;
     background-color: #000;
     border-radius: 10px;
+    margin: 0 10px;
 
     &:hover{
         cursor: pointer;
@@ -148,9 +154,17 @@ const EducationCard = ({ education }) => {
             <Description>
                 <Span>{education.desc}</Span>
             </Description>
-                <a href={education.doc} target="new">
-                    <Document src={education.doc} />
+            <DocumentContainer>
+                <a href={education.doc0} target="new">
+                    <Document src={education.doc0} />
                 </a>
+                <a href={education.doc1} target="new">
+                    <Document src={education.doc1} />
+                </a>
+                <a href={education.doc2} target="new">
+                    <Document src={education.doc2} />
+                </a>
+            </DocumentContainer>
         </Card>
     )
 }

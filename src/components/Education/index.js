@@ -83,7 +83,7 @@ const index = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    TBD
+                    My educational achievements underscore my strong learning abilities.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

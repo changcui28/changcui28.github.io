@@ -1,16 +1,15 @@
 export const Bio = {
   name: "Chang Cui",
   roles: [
-    "Aspiring Co-op Developer",
-    "Straight A+ Student",
-    "TBD",
-    "TBD",
+    "an Aspiring Co-op Developer",
+    "a Straight A+ Student",
+    "an Organization Geek",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+   "My consistently high grades of A+ and top ranking in multiple courses serve as a testament to my exceptional learning abilities. I am deeply committed to refining my code to achieve greater efficiency and elegance. Organizational skills and productivity are inherent to my nature. Reliability holds immense significance for me, and I continually seek novel opportunities to learn and conquer challenges. The prospect of embarking on a career journey genuinely excites me, and I am determined to exceed expectations. Rest assured, I won't let you down.",
   github: "https://github.com/changcui28",
   resume:
-    "TBD",
+    "https://www.linkedin.com/in/chang-cui/",
   linkedin: "https://www.linkedin.com/in/chang-cui/",
 };
 
@@ -71,14 +70,19 @@ export const skills = [
     title: "Database",
     skills: [
       {
-        name: "MongoDB",
+        name: "MySQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
         name: "Oracle",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg",
+      },
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
     ],
   },
@@ -120,15 +124,16 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "data:image/png;base64,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",
+    img: "https://github.com/changcui28/images/blob/main/portfolioImages/newgLogo.png?raw=true",
     role: "Immigration Consultant",
-    company: "Newg Education",
+    company: "NewG Education",
     date: "Mar 2020 - Jan 2023",
-    desc: "TBD",
+    desc: "I refined project management skills, fostering organization and productive client collaboration. By promoting transparent communication, akin to software development teams, I ensured successful project outcomes.",
     skills: [
-      "Immigration Services",
+      "Project Management",
+      "Communication",
       "Microsoft Office",
-      "Student Advisory",
+      "Attention to Detail",
     ],
   },
   {
@@ -137,10 +142,11 @@ export const experiences = [
     role: "Property Accountant",
     company: "Rudder Group",
     date: "Sep 2018 - Sep 2019",
-    desc: "TBD",
+    desc: "I applied strong problem-solving and analytical skills to navigate complex finances, mirroring the precision needed in coding for error-free software. This attention to detail translated into accurate financial reporting.",
     skills: [
-      "Xero",
-      "MYOB",
+      "Problem Solving",
+      "Analytical Skills",
+      "Attention to Detail",
       "Microsoft Office",
     ],
   },
@@ -158,6 +164,10 @@ export const education = [
       <table>
         <tbody>
           <tr>
+            <td>President's&nbsp;</td>
+            <td>Honour List Award for all semesters</td>
+          </tr>
+          <tr>
             <td>OOP 244</td>
             <td>Object Oriented Programming</td>
             <td>A+</td>
@@ -166,14 +176,14 @@ export const education = [
           <tr>
             <td>IPC 144</td>
             <td>Intro to Programming Using C</td>
-            <td>A+</td>
+            <td>A+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td>ranked <font color="red"><b>first</b></font> in the class</td>
           </tr>
           <tr>
             <td>SFT 221</td>
             <td>Software Testing</td>
             <td>A+</td>
-            <td>ranked <font color="red"><b>second</b></font> in the class</td>
+            <td>ranked <font color="red"><b>first</b></font> in the class</td>
           </tr>
           <tr>
             <td>WEB 222</td>
@@ -208,8 +218,10 @@ export const education = [
         </tbody>
       </table>
     ),
-    degree: "Advanced Diploma in Computer Programming & Analysis",
-    doc: "https://media.licdn.com/dms/image/C560BAQHku1JnGDofqw/company-logo_100_100/0/1678056190352?e=1701302400&v=beta&t=FTxF-7r7c-OxW-yiC78pIi2utuBsDRrKO-A02laYj3E"
+    degree: "Advanced Diploma - Computer Programming & Analysis",
+    doc0: "https://github.com/changcui28/images/blob/main/portfolioImages/transcript.png?raw=true",
+    doc1: "https://github.com/changcui28/images/blob/main/portfolioImages/honour2023Winter.png?raw=true",
+    doc2: "https://github.com/changcui28/images/blob/main/portfolioImages/honour2023Summer.png?raw=true",
   },
   {
     id: 1,
@@ -217,60 +229,23 @@ export const education = [
     school: "Macquarie University",
     date: "Oct 2015 - Apr 2018",
     grade: "Distinction",
-    desc: "TBD",
+    desc: "Through this academic journey, I have cultivated strong analytical and problem-solving abilities, emphasizing attention to detail and precision. I have seamlessly transferred these skills into my computer programming studies, where I have effectively employed them. My interdisciplinary background empowers me to approach challenges with innovative perspectives and collaborate seamlessly within teams, contributing a distinctive viewpoint to development projects.",
     degree: "Bachelor of Commerce - Professional Accounting",
+     doc0: "https://github.com/changcui28/images/blob/main/portfolioImages/mqPhoto.jpg?raw=true",
   },
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "Animal Crossing",
+    title: "Unwind with Animal Crossing",
     date: "Jul 2023",
     description:
-      "TBS",
+      "project desc under construction...",
     image:
-      "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+      "https://github.com/changcui28/images/blob/main/portfolioImages/animalCrossing.png?raw=true",
     tags: ["HTML", "CSS", "JavaScript"],
-    category: "web app",
-    github: "https://changcui28.github.io/",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Chang Cui",
-        img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
-      },
-    ],
-  },
-  {
-    id: 1,
-    title: "Animal Crossing",
-    date: "Jul 2023",
-    description:
-      "TBS",
-    image:
-      "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "web app",
-    github: "https://changcui28.github.io/",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Chang Cui",
-        img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Animal Crossing",
-    date: "Jul 2023",
-    description:
-      "TBS",
-    image:
-      "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "web app",
+    category: "webDevelopment",
     github: "https://changcui28.github.io/",
     webapp: "https://changcui28.github.io/",
     member: [
@@ -279,6 +254,101 @@ export const projects = [
         img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
       },
     ],
+  },
+  {
+    id: 1,
+    title: "My Portfolio Website",
+    date: "Aug 2023",
+    description:
+      "project desc under construction...",
+    image:
+      "https://github.com/changcui28/images/blob/main/portfolioImages/portfolioAbout.png?raw=true",
+    tags: ["React Js", "HTML", "CSS", "JavaScript"],
+    category: "webDevelopment",
+    github: "https://github.com/changcui28/changcui28.github.io",
+    webapp: "https://changcui28.github.io/",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
+  {
+    id: 2,
+    title: "Swing Puzzle Game",
+    date: "Aug 2023",
+    description:
+      "An engaging sliding tile puzzle crafted with Java Swing, skillfully showcasing object-oriented design principles and a dynamic event-driven architecture. This interactive experience challenges players to skillfully rearrange shuffled tiles, constructing a coherent image, while seamlessly illustrating the application of object-oriented programming and event-driven interactions.",
+    image:
+      "https://github.com/changcui28/images/blob/main/portfolioImages/puzzleGame.png?raw=true",
+    tags: ["Java", "OOP", "Java Swing"],
+    category: "software",
+    github: "https://github.com/changcui28/SwingPuzzleGame",
+    webapp: "https://github.com/changcui28/SwingPuzzleGame#screenshots",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
+  {
+    id: 3,
+    title: "Sales Data Insights: Visualized Analytics",
+    date: "Aug 2023",
+    description:
+      "project desc under construction...",
+    image:
+      "https://github.com/changcui28/images/blob/main/portfolioImages/pythonBarChart.png?raw=true",
+    tags: ["Python", "OOP", "pyecharts", "Data Visualization"],
+    category: "dataproject",
+    github: "https://changcui28.github.io/",
+    webapp: "https://changcui28.github.io/",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
+  {
+    id: 4,
+    title: "Student Management System",
+    date: "Aug 2023",
+    description:
+      "The Student Management System is a Java-based console application designed to simplify student record management within educational institutions. This system enables administrators to easily handle student data, including adding, deleting, updating, and querying student information, as well as user authentication and password recovery.",
+    image:
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    tags: ["Java", "OOP"],
+    category: "software",
+    github: "https://github.com/changcui28/studentManagementSystem",
+    webapp: "https://github.com/changcui28/studentManagementSystem#screenshots",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
+  {
+    id: 5,
+    title: "Point Of Sale Systemm",
+    date: "Mar 2023",
+    description:
+      "project desc under construction...",
+    image:
+      "TBD",
+    tags: ["C"],
+    category: "software",
+    github: "https://changcui28.github.io/",
+    webapp: "https://changcui28.github.io/",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
   },
  
 ];

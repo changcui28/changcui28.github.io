@@ -79,7 +79,7 @@ const index = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    As a current student in the third semester of Seneca's Computer Programming & Analysis program, I am actively enhancing my skills in the world of coding and technology. While I may not have direct experience in the developer realm just yet, my previous professional engagements have endowed me with a plethora of valuable transferable skills.
+                    My past professional roles have equipped me with a range of valuable transferable skills.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

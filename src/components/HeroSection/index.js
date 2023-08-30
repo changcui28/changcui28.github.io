@@ -18,7 +18,7 @@ const HeroSection = () => {
                     <HeroLeftContainer id="Left">
                         <Title>Hi, I am <br /> {Bio.name}<br /></Title>
                         <TextLoop>
-                            I am a
+                            I am
                             <Span>
                                 <Typewriter
                                     options={{
@@ -37,7 +37,6 @@ const HeroSection = () => {
                         <Img src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
-
             </HeroContainer>
         </div>
     )

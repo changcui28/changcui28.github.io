@@ -15,6 +15,15 @@ const Button = styled.button`
     transition: all 0.8s ease-in-out;
 `
 
+const BottomButtonContainer = styled.div`
+    position: absolute;
+    bottom: 20px;
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+`
+
 const Card = styled.div`
     width: 330px;
     height: 490px;
@@ -109,21 +118,21 @@ const Description = styled.div`
     text-overflow: ellipsis;
 `
 
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-`
+// const Members = styled.div`
+//     display: flex;
+//     align-items: center;
+//     padding-left: 10px;
+// `
 
-const Avatar = styled.img`
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    margin-left: -10px;
-    background-color: ${({ theme }) => theme.white};
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border: 3px solid ${({ theme }) => theme.card};
-`
+// const Avatar = styled.img`
+//     width: 38px;
+//     height: 38px;
+//     border-radius: 50%;
+//     margin-left: -10px;
+//     background-color: ${({ theme }) => theme.white};
+//     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+//     border: 3px solid ${({ theme }) => theme.card};
+// `
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
@@ -139,12 +148,14 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Members>
+            {/* <Members>
                 {project.member?.map((member) => (
                     <Avatar src={member.img}/>
                 ))}
-            </Members>
-            {/* <Button>View Project</Button> */}
+            </Members> */}
+            <BottomButtonContainer>
+                <Button>View Project</Button>
+            </BottomButtonContainer>
         </Card>
     )
 }
