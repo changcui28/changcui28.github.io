@@ -31,8 +31,8 @@ function App() {
         <Body>
           <HeroSection />
           {/* <Wrapper> */}
+          <Education />
             <Skills />
-            <Education />
           {/* </Wrapper> */}
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           {/* <Wrapper> */}

@@ -1,12 +1,12 @@
 export const Bio = {
-  name: "Chang Cui",
+  name: "Claire Cui",
   roles: [
     "an Aspiring Co-op Developer",
     "a Straight A+ Student",
     "an Organization Geek",
   ],
   description:
-   "My consistently high grades of A+ and top ranking in multiple courses serve as a testament to my exceptional learning abilities. I am deeply committed to refining my code to achieve greater efficiency and elegance. Organizational skills and productivity are inherent to my nature. Reliability holds immense significance for me, and I continually seek novel opportunities to learn and conquer challenges. The prospect of embarking on a career journey genuinely excites me, and I am determined to exceed expectations. Rest assured, I won't let you down.",
+   "My consistent A+ grades and top rankings in multiple courses reflect my exceptional learning abilities. I am dedicated to refining my code for improved efficiency and elegance. Organizational skills and productivity are innate to my nature. Reliability holds immense significance for me, and I continuously seek novel opportunities to learn and conquer challenges. The prospect of embarking on a career journey genuinely excites me, and I am determined to exceed expectations. Rest assured, I won't disappoint.",
   github: "https://github.com/changcui28",
   resume:
     "https://www.linkedin.com/in/chang-cui/",
@@ -126,7 +126,7 @@ export const experiences = [
     id: 0,
     img: "https://github.com/changcui28/images/blob/main/portfolioImages/newgLogo.png?raw=true",
     role: "Immigration Consultant",
-    company: "NewG Education",
+    company: "NewG Education Toronto, Canada",
     date: "Mar 2020 - Jan 2023",
     desc: "I refined project management skills, fostering organization and productive client collaboration. By promoting transparent communication, akin to software development teams, I ensured successful project outcomes.",
     skills: [
@@ -140,7 +140,7 @@ export const experiences = [
     id: 0,
     img: "https://ruddergroup.com.au/wp-content/uploads/2020/02/logo2.svg",
     role: "Property Accountant",
-    company: "Rudder Group",
+    company: "Rudder Group Sydney, Australia",
     date: "Sep 2018 - Sep 2019",
     desc: "I applied strong problem-solving and analytical skills to navigate complex finances, mirroring the precision needed in coding for error-free software. This attention to detail translated into accurate financial reporting.",
     skills: [
@@ -157,7 +157,7 @@ export const education = [
     id: 0,
     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
     school: "Seneca College",
-    date: "Jan 2023 - Aug 2025",
+    date: "Jan 2023 - present",
     grade: "4.0/4.0 Straight A+",
     desc: 
     (
@@ -165,47 +165,55 @@ export const education = [
         <tbody>
           <tr>
             <td>President's&nbsp;</td>
-            <td>Honour List Award for all semesters</td>
+            <td>Honour List Awards for all semesters</td>
           </tr>
           <tr>
             <td>OOP 244</td>
             <td>Object Oriented Programming</td>
             <td>A+</td>
-            <td>ranked <font color="red"><b>first</b></font> in the class</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font> in the class</td>
           </tr>
           <tr>
             <td>IPC 144</td>
             <td>Intro to Programming Using C</td>
             <td>A+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td>ranked <font color="red"><b>first</b></font> in the class</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font> in the class</td>
           </tr>
           <tr>
             <td>SFT 221</td>
             <td>Software Testing</td>
             <td>A+</td>
-            <td>ranked <font color="red"><b>first</b></font> in the class</td>
-          </tr>
-          <tr>
-            <td>WEB 222</td>
-            <td>Web Programming Principles</td>
-            <td>A+</td>
-            <td>ranked <font color="red"><b>third</b></font> in the class</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font> in the class</td>
           </tr>
           <tr>
             <td>DBS 211</td>
             <td>Intro to Database Systems</td>
             <td>A+</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>ULI 101</td>
-            <td>Intro UNIX/Linux and Internet</td>
-            <td>A+</td>
-            <td></td>
+            <td>🥈ranked <font color="red"><b>2nd</b></font> in the class</td>
           </tr>
           <tr>
             <td>CPR 101</td>
             <td>Comp. Principle for Programmer</td>
+            <td>A+</td>
+            <td>🥉ranked <font color="red"><b>3rd</b></font> in the class</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>PSY 162</td>
+            <td>Psychology and Personal Growth</td>
+            <td>A+</td>
+            <td>🥉ranked <font color="red"><b>3rd</b></font> in the class</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>WEB 222</td>
+            <td>Web Programming Principles</td>
+            <td>A+</td>
+            <td>🎖ranked <font color="red"><b>4th</b></font> in the class</td>
+          </tr>
+          <tr>
+            <td>ULI 101</td>
+            <td>Intro UNIX/Linux and Internet</td>
             <td>A+</td>
             <td></td>
           </tr>
@@ -236,46 +244,8 @@ export const education = [
 ];
 
 export const projects = [
-  {
+    {
     id: 0,
-    title: "Unwind with Animal Crossing",
-    date: "Jul 2023",
-    description:
-      "project desc under construction...",
-    image:
-      "https://github.com/changcui28/images/blob/main/portfolioImages/animalCrossing.png?raw=true",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "webDevelopment",
-    github: "https://changcui28.github.io/",
-    webapp: "https://changcui28.github.io/",
-    member: [
-      {
-        name: "Chang Cui",
-        img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
-      },
-    ],
-  },
-  {
-    id: 1,
-    title: "My Portfolio Website",
-    date: "Aug 2023",
-    description:
-      "project desc under construction...",
-    image:
-      "https://github.com/changcui28/images/blob/main/portfolioImages/portfolioAbout.png?raw=true",
-    tags: ["React Js", "HTML", "CSS", "JavaScript"],
-    category: "webDevelopment",
-    github: "https://github.com/changcui28/changcui28.github.io",
-    webapp: "https://changcui28.github.io/",
-    // member: [
-    //   {
-    //     name: "Chang Cui",
-    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
-    //   },
-    // ],
-  },
-  {
-    id: 2,
     title: "Swing Puzzle Game",
     date: "Aug 2023",
     description:
@@ -293,33 +263,14 @@ export const projects = [
     //   },
     // ],
   },
-  {
-    id: 3,
-    title: "Sales Data Insights: Visualized Analytics",
-    date: "Aug 2023",
-    description:
-      "project desc under construction...",
-    image:
-      "https://github.com/changcui28/images/blob/main/portfolioImages/pythonBarChart.png?raw=true",
-    tags: ["Python", "OOP", "pyecharts", "Data Visualization"],
-    category: "dataproject",
-    github: "https://changcui28.github.io/",
-    webapp: "https://changcui28.github.io/",
-    // member: [
-    //   {
-    //     name: "Chang Cui",
-    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
-    //   },
-    // ],
-  },
-  {
-    id: 4,
+    {
+    id: 1,
     title: "Student Management System",
     date: "Aug 2023",
     description:
       "The Student Management System is a Java-based console application designed to simplify student record management within educational institutions. This system enables administrators to easily handle student data, including adding, deleting, updating, and querying student information, as well as user authentication and password recovery.",
     image:
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      "https://www.vectorlogo.zone/logos/java/java-ar21.svg",
     tags: ["Java", "OOP"],
     category: "software",
     github: "https://github.com/changcui28/studentManagementSystem",
@@ -331,18 +282,94 @@ export const projects = [
     //   },
     // ],
   },
+    {
+    id: 2,
+    title: "Sales Data Insights: Visualized Analytics",
+    date: "Aug 2023",
+    description:
+      "This project focuses on analyzing sales data using object-oriented programming (OOP) principles, file handling, and data visualization. It reads sales data from text and JSON files, processes the data, performs logical calculations, and visualizes the results using PyEcharts.",
+    image:
+      "https://github.com/changcui28/images/blob/main/portfolioImages/pythonBarChart.png?raw=true",
+    tags: ["Python", "OOP", "pyecharts", "Data Visualization", "File Handling"],
+    category: "dataproject",
+    github: "https://github.com/changcui28/SalesDataAnalysis",
+    webapp: "https://github.com/changcui28/SalesDataAnalysis#screenshot",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
+  {
+    id: 3,
+    title: "Unwind with Animal Crossing",
+    date: "Jul 2023",
+    description:
+      "A web page that celebrates the popular life simulation video game, Animal Crossing: New Horizons. This project provides a platform for fans of the game to share their experiences, reviews, and insights with the community. Users can explore information about the game, read reviews from other players, and even contribute their own reviews. Whether you're a dedicated player or someone interested in learning more about the game, Unwind With Animal Crossing offers a relaxing and enjoyable experience.",
+    image:
+      "https://github.com/changcui28/images/blob/main/portfolioImages/animalCrossing.png?raw=true",
+    tags: ["HTML", "CSS", "JavaScript", "DOM"],
+    category: "webDevelopment",
+    github: "https://github.com/changcui28/UnwindWithAnimalCrossing",
+    webapp: "https://unwindwithanimalcrossing.netlify.app/",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
+  {
+    id: 4,
+    title: "My Portfolio Website",
+    date: "Aug 2023",
+    description:
+      "My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.",
+    image:
+      "https://github.com/changcui28/images/blob/main/portfolioImages/portfolioAbout.png?raw=true",
+    tags: ["React Js", "HTML", "CSS", "JavaScript"],
+    category: "webDevelopment",
+    github: "https://github.com/changcui28/changcui28.github.io",
+    webapp: "https://changcui28.github.io/",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
   {
     id: 5,
-    title: "Point Of Sale Systemm",
+    title: "Seneca Library Application ",
+    date: "Jul 2023",
+    description:
+      "A software project that aims to manage the publication system of a library. It provides features for adding, removing, checking out, and returning publications, enhancing the library's operational efficiency.",
+    image:
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    tags: ["C++", "OOP", "File I/O"],
+    category: "software",
+    github: "https://github.com/changcui28/SenecaLibraryApplication",
+    webapp: "https://github.com/changcui28/SenecaLibraryApplication",
+    // member: [
+    //   {
+    //     name: "Chang Cui",
+    //     img: "https://www.senecacollege.ca/content/dam/projects/seneca/seneca-logo.svg",
+    //   },
+    // ],
+  },
+    {
+    id: 6,
+    title: "Point of Sale System",
     date: "Mar 2023",
     description:
-      "project desc under construction...",
+      "The Point of Sale System is designed to streamline the process of managing sales transactions and inventory in a retail setting. The system offers a user-friendly interface that enables easy navigation and interaction.",
     image:
-      "TBD",
-    tags: ["C"],
+      "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+    tags: ["C", "File I/O"],
     category: "software",
-    github: "https://changcui28.github.io/",
-    webapp: "https://changcui28.github.io/",
+    github: "https://github.com/changcui28/PointOfSaleSystem",
+    webapp: "https://github.com/changcui28/PointOfSaleSystem",
     // member: [
     //   {
     //     name: "Chang Cui",

@@ -11,7 +11,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-           <Span>Chang Cui</Span>
+           <Span>Claire Cui</Span>
         </NavLogo>
 
         <MobileIcon>
@@ -22,8 +22,8 @@ const Navbar = () => {
 
         <NavItems>
           <NavLink href="#about">About</NavLink>
-          <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
         </NavItems>
@@ -41,12 +41,12 @@ const Navbar = () => {
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
             }}>About</MobileLink>
+             <MobileLink href='#education' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Education</MobileLink>
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-            <MobileLink href='#education' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Education</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>

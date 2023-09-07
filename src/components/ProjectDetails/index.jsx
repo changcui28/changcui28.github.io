@@ -44,16 +44,16 @@ const Title = styled.div`
   }
 `
 
-const Date = styled.div`
-    font-size: 16px;
-    margin: 2px 6px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary};
+// const Date = styled.div`
+//     font-size: 16px;
+//     margin: 2px 6px;
+//     font-weight: 400;
+//     color: ${({ theme }) => theme.text_secondary};
 
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
+//     @media only screen and (max-width: 768px){
+//         font-size: 12px;
+//     }
+// `
 
 const Desc = styled.div`
     font-size: 16px;
@@ -198,7 +198,7 @@ const index = ({ openModal, setOpenModal }) => {
                     />
                     <Image src={project?.image} />
                     <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
+                    {/* <Date>{project.date}</Date> */}
                     <Tags>
                         {project?.tags.map((tag) => (
                             <Tag>{tag}</Tag>
@@ -226,7 +226,7 @@ const index = ({ openModal, setOpenModal }) => {
                     )}
                     <ButtonGroup>
                         <Button href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        <Button href={project?.webapp} target='new'>View Demo</Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>

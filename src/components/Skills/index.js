@@ -9,7 +9,7 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  padding: 100px 0px 60px 0px;
+  padding: 60px 0px 60px 0px;
 `
 
 const Wrapper = styled.div`

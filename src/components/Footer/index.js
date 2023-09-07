@@ -31,7 +31,7 @@ function Footer() {
       <FooterWrapper>
         
         <Copyright>
-          &copy; 2023 Chang Cui. All rights reserved.
+          &copy; 2023 Claire Cui. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

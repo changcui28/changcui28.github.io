@@ -9,7 +9,7 @@ const DocumentContainer = styled.div`
 const Document = styled.img`
     // display: none;
     height: 70px;
-    width: fit-content;
+    // width: fit-content;
     background-color: #000;
     border-radius: 10px;
     margin: 0 10px;
