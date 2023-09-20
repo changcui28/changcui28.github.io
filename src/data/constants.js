@@ -116,6 +116,52 @@ export const skills = [
         image:
           "https://seeklogo.com/images/J/jira-logo-C71F8C0324-seeklogo.com.png",
       },
+      {
+        name: "Confluence",
+        image:
+          "https://seeklogo.com/images/C/confluence-logo-D9B07137C2-seeklogo.com.png",
+      },
+    ],
+  },
+
+    {
+    title: "Transferrable Skills",
+    skills: [
+      {
+        name: "Communication",
+        image:
+          "https://thenounproject.com/api/private/icons/6108182/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+      },
+      {
+        name: "Interpersonal",
+        image:
+          "https://thenounproject.com/api/private/icons/4244261/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+      },
+      {
+        name: "Analytical & Problem Solving",
+        image:
+          "https://thenounproject.com/api/private/icons/5743312/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+      },
+      {
+        name: "Leadership & Management",
+        image:
+          "https://thenounproject.com/api/private/icons/2909348/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+      },
+      {
+        name: "Organizing & Planning",
+        image:
+          "https://thenounproject.com/api/private/icons/5283058/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+      },
+      {
+        name: "Self-Management",
+        image:
+          "https://thenounproject.com/api/private/icons/6017995/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+      },
+      {
+        name: "MS Office",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg/1728px-Microsoft_Office_logo_%282013%E2%80%932019%29.svg.png",
+      },
     ],
   },
 ];
@@ -130,10 +176,13 @@ export const experiences = [
     date: "Mar 2020 - Jan 2023",
     desc: "I refined project management skills, fostering organization and productive client collaboration. By promoting transparent communication, akin to software development teams, I ensured successful project outcomes.",
     skills: [
-      "Project Management",
       "Communication",
-      "Microsoft Office",
-      "Attention to Detail",
+      "Interpersonal",
+      "Analytical and Problem Solving",
+      "Leadership & Management",
+      "Organizing & Planning",
+      "Self-Management",
+      "MS Office",
     ],
   },
   {
@@ -144,10 +193,12 @@ export const experiences = [
     date: "Sep 2018 - Sep 2019",
     desc: "I applied strong problem-solving and analytical skills to navigate complex finances, mirroring the precision needed in coding for error-free software. This attention to detail translated into accurate financial reporting.",
     skills: [
-      "Problem Solving",
-      "Analytical Skills",
-      "Attention to Detail",
-      "Microsoft Office",
+      "Communication",
+      "Interpersonal",
+      "Analytical and Problem Solving",
+      "Organizing &Planning",
+      "Self-Management",
+      "MS Office",
     ],
   },
 ];
