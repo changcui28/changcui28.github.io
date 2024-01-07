@@ -164,6 +164,9 @@ const EducationCard = ({ education }) => {
                 <a href={education.doc2} target="new">
                     <Document src={education.doc2} />
                 </a>
+                <a href={education.doc3} target="new">
+                    <Document src={education.doc3} />
+                </a>
             </DocumentContainer>
         </Card>
     )

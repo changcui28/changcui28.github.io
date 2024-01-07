@@ -219,60 +219,73 @@ export const education = [
             <td>Honour List Awards for all semesters</td>
           </tr>
           <tr>
+            <td>OOP 345</td>
+            <td>Software Development Using C++</td>
+            <td>A+</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font></td>
+          </tr>
+          <tr>
             <td>OOP 244</td>
             <td>Object Oriented Programming</td>
             <td>A+</td>
-            <td>🥇ranked <font color="red"><b>1st</b></font> in the class</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font></td>
           </tr>
           <tr>
             <td>IPC 144</td>
             <td>Intro to Programming Using C</td>
             <td>A+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td>🥇ranked <font color="red"><b>1st</b></font> in the class</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font></td>
           </tr>
           <tr>
             <td>SFT 221</td>
             <td>Software Testing</td>
             <td>A+</td>
-            <td>🥇ranked <font color="red"><b>1st</b></font> in the class</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font></td>
+          </tr>
+          <tr>
+            <td>WEB 422</td>
+            <td>Web Programming for Apps & Services</td>
+            <td>A+</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font></td>
+          </tr>
+          <tr>
+            <td>DBS 311</td>
+            <td>Advanced Database Services</td>
+            <td>A+</td>
+            <td>🥇ranked <font color="red"><b>1st</b></font></td>
           </tr>
           <tr>
             <td>DBS 211</td>
             <td>Intro to Database Systems</td>
             <td>A+</td>
-            <td>🥈ranked <font color="red"><b>2nd</b></font> in the class</td>
+            <td>🥈ranked <font color="red"><b>2nd</b></font></td>
+          </tr>
+          <tr>
+            <td>SYD 366</td>
+            <td>Software Analysis and Design</td>
+            <td>A+</td>
+            <td>🥉ranked <font color="red"><b>3rd</b></font></td>
+            <td></td>
           </tr>
           <tr>
             <td>CPR 101</td>
             <td>Comp. Principle for Programmer</td>
             <td>A+</td>
-            <td>🥉ranked <font color="red"><b>3rd</b></font> in the class</td>
+            <td>🥉ranked <font color="red"><b>3rd</b></font></td>
             <td></td>
           </tr>
           <tr>
             <td>PSY 162</td>
             <td>Psychology and Personal Growth</td>
             <td>A+</td>
-            <td>🥉ranked <font color="red"><b>3rd</b></font> in the class</td>
+            <td>🥉ranked <font color="red"><b>3rd</b></font></td>
             <td></td>
           </tr>
           <tr>
             <td>WEB 222</td>
             <td>Web Programming Principles</td>
             <td>A+</td>
-            <td>🎖ranked <font color="red"><b>4th</b></font> in the class</td>
-          </tr>
-          <tr>
-            <td>ULI 101</td>
-            <td>Intro UNIX/Linux and Internet</td>
-            <td>A+</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>APS 145</td>
-            <td>Applied Problem Solving</td>
-            <td>A+</td>
-            <td></td>
+            <td>🎖ranked <font color="red"><b>4th</b></font></td>
           </tr>
         </tbody>
       </table>
@@ -281,6 +294,7 @@ export const education = [
     doc0: "https://github.com/changcui28/images/blob/main/portfolioImages/transcript.png?raw=true",
     doc1: "https://github.com/changcui28/images/blob/main/portfolioImages/honour2023Winter.png?raw=true",
     doc2: "https://github.com/changcui28/images/blob/main/portfolioImages/honour2023Summer.png?raw=true",
+    doc3: "https://github.com/changcui28/images/blob/main/portfolioImages/honour2023Fall.png?raw=true",
   },
   {
     id: 1,
